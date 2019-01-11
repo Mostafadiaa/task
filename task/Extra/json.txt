@@ -1,0 +1,150 @@
+{
+  "stores": [
+    {
+      "name": "Monginiss",
+      "id": "1",
+      "image": "https://mediawatanguide.elwatannews.com/Places/logos/Medium/194207_Monginis%20Logo.jpg",
+      "backImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-kWthe_mEsj_BJSmtlVd9UcDVgjfdY2ASS2JcgpdqkkRaJ8sjzA",
+      "points": 536
+    },
+    {
+      "name": "Pasta 2Go",
+      "id": "2",
+      "image": "https://s3-eu-west-1.amazonaws.com/elmenusv5-stg/Normal/fce4eef6-a3a8-11e8-b2ca-0242ac110002.jpg",
+      "backImage":"https://static01.nyt.com/images/2018/12/05/dining/pasta-wilted-greens-bacon-egg-horizontal/merlin_146796882_e6abab37-1460-4cdf-9b86-442304a0acb4-articleLarge.jpg",
+      "points": 40
+    }
+  ],
+  "gifts": [
+    {
+      "name": "jhb",
+      "store": "2",
+      "points": 432
+    },
+    {
+      "name": "hjm",
+      "store": "2",
+      "points": 424
+    },
+    {
+      "name": "fa",
+      "store": "2",
+      "points": 416
+    },
+    {
+      "name": "hd",
+      "store": "2",
+      "points": 400
+    },
+    {
+      "name": ",n",
+      "store": "2",
+      "points": 380
+    },
+    {
+      "name": "la",
+      "store": "2",
+      "points": 360
+    },
+    {
+      "name": "hh",
+      "store": "2",
+      "points": 340
+    },
+    {
+      "name": "qs",
+      "store": "2",
+      "points": 320
+    },
+    {
+      "name": "Lemon basil",
+      "store": "2",
+      "points": 160
+    },
+    {
+      "name": "Meat sauce",
+      "store": "2",
+      "points": 140
+    },
+    {
+      "name": "Mac & Cheetos",
+      "store": "2",
+      "points": 220
+    },
+    {
+      "name": "Marinara sauce",
+      "store": "2",
+      "points": 140
+    },
+    {
+      "name": "Cacciatore sauce",
+      "store": "2",
+      "points": 120
+    },
+    {
+      "name": "Pink sauce",
+      "store": "2",
+      "points": 120
+    },
+    {
+      "name": "Pesto basil sauce",
+      "store": "2",
+      "points": 160
+    },
+    {
+      "name": "Tomato sauce",
+      "store": "2",
+      "points": 120
+    },
+    {
+      "name": "Mac & cheese",
+      "store": "2",
+      "points": 200
+    },
+    {
+      "name": "Alfredo Sauce",
+      "store": "2",
+      "points": 140
+    },
+    {
+      "name": "بولة بلح",
+      "store": "1",
+      "points": 180
+    },
+    {
+      "name": "علبة شيكولاتة خشب",
+      "store": "1",
+      "points": 880
+    },
+    {
+      "name": "تورتة 20*30 نص فاكهة ونص أجلاسيه",
+      "store": "1",
+      "points": 780
+    },
+    {
+      "name": "تورتة الدمعة",
+      "store": "1",
+      "points": 540
+    },
+    {
+      "name": "علبة شيكولاتة",
+      "store": "1",
+      "points": 480
+    },
+    {
+      "name": "جاتوه سواريه",
+      "store": "1",
+      "points": 380
+    },
+    {
+      "name": "علبة كوكيز",
+      "store": "1",
+      "points": 300
+    },
+    {
+      "name": "بسبوسة سادة",
+      "store": "1",
+      "points": 192
+    }
+  ]
+}
