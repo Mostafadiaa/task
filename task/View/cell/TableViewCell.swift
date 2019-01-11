@@ -42,32 +42,23 @@ class TableViewCell: UITableViewCell {
         if store.points >= gift.points {
             self.giftBox.isHidden = false
             self.gift.isHidden = false
-           // self.redeem.isHidden = false
             self.redeem.text = "Redeem Now:"
             self.giftName.isHidden = true
-           // self.progressView.isHidden = true
             self.gift.text = gift.name
             self.arrow.isHidden = false
             self.unlockLabel.isHidden = false
             self.activity.isHidden = true
             self.activity.stopAnimating()
-
-
-           // self.giftMessageLabel.text = "You have unlocked"
-           // self.backGroundImage.s= true
         }else {
             self.activity.isHidden = false
             self.activity.startAnimating()
             self.giftBox.isHidden = true
             self.arrow.isHidden = true
             self.gift.isHidden = true
-           // self.redeem.isHidden = true
             self.giftName.isHidden = false
             self.unlockLabel.isHidden = true
-           // self.progressView.isHidden = false
             self.giftName.text = gift.name
             self.redeem.text = "Next Gift"
-           // self.storeBgImageView.showBorder = false
         }
     }
  

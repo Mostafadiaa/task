@@ -10,17 +10,14 @@ import UIKit
 
 class shopXvC: UIViewController {
     @IBOutlet weak var dataTable: UITableView!
-    fileprivate var rData:responseData?
     override func viewDidLoad() {
         super.viewDidLoad()
         retriveData()
-        print(retriveData())
          self.dataTable.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell")
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
 }
-
+//retriveData
 extension shopXvC {
     @discardableResult
     func retriveData() -> ([store]?, [gifts]?) {
@@ -39,7 +36,7 @@ extension shopXvC {
     }
 }
 
-
+//view the data 
 extension shopXvC:UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if  retriveData().1 != nil{
@@ -56,16 +53,10 @@ extension shopXvC:UITableViewDataSource,UITableViewDelegate{
         }).first{
             cell.viewCell(store: store, gift: gift)
         }
-//        if let store = self.menu?.stores.filter({ (store) -> Bool in
-//            return store.id == gift?.store
-//        }).first {
-//            cell.configCell(store: store, gift: gift!)
-//        }
-//        print(gift)
         return cell
     }
      func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return  200.0
+        return  201.5
     }
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
         return nil
